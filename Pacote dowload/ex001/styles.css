@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* justificar o texto ao centro*/
+    align-items: center;
+    height: 100vh; /* Altura / vh = Altura */
+    width: 100vw; /* vw = largura */
+    background-image: url("https://images.unsplash.com/photo-1630260667842-830a17d12ec9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=4140&q=80")
+}
+
+.caixa-maior {
+    background-color:#19191a; /* trocar cor de fundo */
+    width: 440px; /* Largura */
+    opacity: 0.8; /* trasparencia */
+    padding: 20px;
+    border-radius: 25px;
+}
+
+
+input {
+    border: none; /*borda do elemento*/
+    outline: none; /* borda quando seleciona o elemento*/
+    padding: 10px; /*espaçamento interno*/
+    border-radius: 24px; /* arredondar as bordas*/
+    font-size: 20px; /* testo que digita dentro do input*/
+    background-color: #7c7c7c2b;
+    color: #f0f0f0;
+    
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.caixa-media{
+    margin-top: 25px;
+}
+
+.caixa-menor{
+
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    height: 50px;
+}
+
+.lupa {
+
+ height: 20px; 
+}
+
+
+h2 {
+    color: white;
+    font-size: 25px; /* tamanho do texto */   
+    
+}
+
+
+.temp {
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+.descricao {
+    margin: top 25px;
+    text-transform: capitalize;
+    color: #ffffff;
+    height: 20px;
+    align-items: center;
+}
+
+.umidade {
+    color: #ffffff;
+    text-transform: capitalize;
+    justify-content: center;
+}
